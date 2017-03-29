@@ -1,0 +1,77 @@
+h3 {
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+p {
+  padding-bottom: 5%;
+}
+
+#header {
+  color: white;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#top-image {
+  background-image: url(../img/hands.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#private-lesson img {
+  width: 100%;
+}
+
+.overlay {
+    margin-top: 10px;
+    width: 100%; height: 40%;
+    background: #ffffff;
+    text-align: center;
+}
+
+
+@media (max-width: 449px) {
+  #middle {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+  }
+
+  #classes {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+  }
+
+  #private-lesson {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 450px) {
+  #middle {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #classes {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #private-lesson {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
