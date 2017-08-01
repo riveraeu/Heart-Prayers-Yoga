@@ -1,10 +1,10 @@
 $(document).ready(function() {
   // Goolge maps Api overlay
-  $('.overlay').click(function () {
+  $("#overlay").click(function () {
       $("#map").css("pointer-events", "auto");
   });
 
-  $('.overlay').mouseleave(function() {
+  $("#overlay").mouseleave(function() {
     $("#map").css("pointer-events", "none");
   });
 
